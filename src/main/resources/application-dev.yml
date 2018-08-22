@@ -1,0 +1,20 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /demo1
+name: ella
+age: 26
+girl: "name: ${name}, age: ${age}"
+person:
+  name: dumy
+  age: 24
+#spring:
+#  # thymeleaf
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    check-template-location: true
+#    suffix: .html
+#    encoding: UTF-8
+#    mode: HTML
+#    cache: true
+#    enabled: true
